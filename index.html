@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>form</title>
+</head>
+<body>
+ <div class = "container">
+ <div class = "title">Registration
+    <form action="result.html" method="get">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" Name="name" id="name" placeholder="Enter your name" required>
+    </div>
+    <div>
+        <label for="name">Username</label>
+        <input type="text" Name="name" id="name" placeholder="Enter your username" required>
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter you email" required>
+    </div>
+    <div>
+        <Label for="date">Birthdate</Label>
+        <input type="date" name="date" id="date">
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" Password="Password" id="password" placeholder="Enter you password" required>
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1" max="130" step="1" placeholder="Enter your age">
+    </div>
+    Gender
+    <div>
+        <label for="male">male </label><input type="radio" name="gender" id="male" value="male"><label for="female"> female </label><input type="radio" name="gender" id="female" value="female">
+        <label for="Prefer not to say">Prefer not to say</label> <input type="radio" name="gender" id="Prefer not to say" value="Prefer not to say">
+    </div>
+    <div>
+        <label for="Country" id="nation">Nationality</label>
+        <select id="select">
+            <option value="Indian">Indian</option>
+            <option value="NRI">NRI</option>
+        </select>
+    </div>
+    <div>
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="Phone" placeholder="Enter your phone number">
+    </div>
+     <div> 
+        <button type="reset" id="Reset">Reset</button>
+        <button type="submit" id="Register">Register</button>
+     </div>  
+    </form> 
+</div>
+</div>
+</body>
+</html>
+
+
